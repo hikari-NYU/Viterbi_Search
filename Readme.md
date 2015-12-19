@@ -20,7 +20,7 @@
 
 ######Methods 
 
-> FORWARD:
+######FORWARD:
 ---------------------------------------------------------------------------
  The transition and emition probabilities used here are based on Brown corpus. 
  The process of finding the optimistic path is as follows: 
@@ -32,7 +32,7 @@
  5. Repeat 3-4 till the end of sentence. 
  6. Fill the end symbol in the last column only. 
 
-> BACKWARD:
+######BACKWARD:
 --------------------------------------------------------------------------
  6. Start from the end symbol, trace back using the recorded indexes. 
  7. Collect and return. 
