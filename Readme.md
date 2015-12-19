@@ -32,7 +32,8 @@
  up the former probability and transitionemission probabilities. 
  4. Record the index of tags also. 
  5. Repeat 3-4 till the end of sentence. 
- 6. Fill the end symbol in the last column only. 
+ 6. Fill the end symbol in the last column only.
+  
 ######BACKWARD:
 
  7. Start from the end symbol, trace back using the recorded indexes. 
