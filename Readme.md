@@ -22,10 +22,11 @@
 
 ######Methods 
 --------
-######FORWARD:
 
  The transition and emition probabilities used here are based on Brown corpus.<br />
  The process of finding the optimistic path is as follows: 
+ 
+######FORWARD:
  1. Build up an empty map with the rows corresponding to tags and columns to words. 
  2. Initialize the first column, fill only the start symbol with probability 1.0. 
  3. For the next row, calculate the probabilities for each pair of values by adding 
@@ -33,7 +34,7 @@
  4. Record the index of tags also. 
  5. Repeat 3-4 till the end of sentence. 
  6. Fill the end symbol in the last column only.
-  
+
 ######BACKWARD:
 
  7. Start from the end symbol, trace back using the recorded indexes. 
