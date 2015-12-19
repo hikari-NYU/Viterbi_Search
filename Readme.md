@@ -13,14 +13,14 @@
 ######Usage 
  0. Python 2.7 with NLTK and JSON required. 
  1. Put the dictionary files under the same folder as viterbi.py. 
- 2. Run 'python viterbi.py'. 
+ 2. Run `python viterbi.py`. 
  3. Input the sentence to tag when asked. 
  4. See the result string. 
 
 
 ######Methods 
 
-FORWARD:
+> FORWARD:
 ---------------------------------------------------------------------------
  The transition and emition probabilities used here are based on Brown corpus. 
  The process of finding the optimistic path is as follows: 
@@ -31,8 +31,8 @@ FORWARD:
  4. Record the index of tags also. 
  5. Repeat 3-4 till the end of sentence. 
  6. Fill the end symbol in the last column only. 
- 
-BACKWARD:
+
+> BACKWARD:
 --------------------------------------------------------------------------
  6. Start from the end symbol, trace back using the recorded indexes. 
  7. Collect and return. 
