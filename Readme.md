@@ -34,5 +34,5 @@
 
 ######BACKWARD:
 --------------------------------------------------------------------------
- 6. Start from the end symbol, trace back using the recorded indexes. 
- 7. Collect and return. 
+ 7. Start from the end symbol, trace back using the recorded indexes. 
+ 8. Collect and return. 
